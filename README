@@ -1,6 +1,7 @@
-dwm - dynamic window manager
+dwm - dynamic window manager - tr0b edition
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
+This repo contains my own personal modifications to dwm, for my own use.
 
 
 Requirements
@@ -41,6 +42,13 @@ like this in your .xinitrc:
     done &
     exec dwm
 
+Patches Applied
+-------------
+tools.suckless.org_dmenu_patches_alpha_dmenu-alpha-20230110-5.2.diff
+tools.suckless.org_dmenu_patches_border_dmenu-border-20230512-0fe460d.diff
+tools.suckless.org_dmenu_patches_center_dmenu-center-5.2.diff
+tools.suckless.org_dmenu_patches_fuzzymatch_dmenu-fuzzymatch-4.9.diff
+tools.suckless.org_dmenu_patches_numbers_dmenu-numbers-20220512-28fb3e2.diff
 
 Configuration
 -------------
